@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  background-color: white;
+  border: 5px gray;
+  border-image: linear-gradient(white, gray) 27 / 35px;
+}
+
+.image-container {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: 12px solid gray;
+}
+
+.pls-center {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+	height: 270px;
+	background: #80aaff;
+  margin-right: 100px;
+  border: 8px solid gray;
+}
+
+.rectangle-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+	height: 270px;
+	background: #80aaff;
+  margin-right: 100px;
+  border: 8px solid gray;
+}
+
+.rectangle-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+	height: 270px;
+	background: #80aaff;
+  margin-right: 100px;
+  border: 8px solid gray;
+  border-image: linear-gradient(white, gray) 10px;
+}
+
+.text-box {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
